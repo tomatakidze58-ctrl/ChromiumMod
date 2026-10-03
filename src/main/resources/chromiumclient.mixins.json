@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "dev.chromium.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameHudMixin", "GameRendererMixin", "HeldItemRendererMixin",
+    "InGameOverlayRendererMixin", "LightmapTextureManagerMixin", "WorldMixin", "WorldRendererMixin",
+    "ChatHudMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
